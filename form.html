@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../pages/collection1.html">Collection1</a>
+            <a href="../pages/collection2.html">Collection2</a>
+            <a href="../pages/collection3.html">Collection3</a>
+            <a href="../form.html">New Video</a>
+        </nav>
+    </section>
+    <br>
+
+        <h1>Add New Video</h1>
+        <form action="_blank">
+            <label for="name">Video Title</label>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="desc">Description</label>
+            <br>
+            <textarea name="desc" id="desc" cols="30" rows="10">
+                </textarea>
+                <br>
+            <br>
+            <label for="upload">New Video</label>
+            <br>
+            <input title="new video" type="file" name="upload" id="upload">
+            <br>
+            <br>
+            <select name="options" id="options">
+                <option value="collections" >Choose Collection</option>
+                <option value="collection1" ><a href="../pages/collection1.html">Collection1</a></option>
+                <option value="collection2" ><a href="../pages/collection2.html">Collection2</a></option>
+                <option value="collection3" ><a href="../pages/collection3.html">Collection3</a></option>
+            </select>
+            <br>
+            <br>
+            <input title="authorization" type="radio" name="public" id="public" value="Public">
+            <label for="public">Public</label>
+            <input title="authorization" type="radio" name="private" id="private" value="Private">
+            <label for="private">Private</label>
+            <br><br><br><br><br>
+            <input type="submit" value="Upload Video">
+        </form>
+
+    <footer></footer>
+</body>
+
+</html>
