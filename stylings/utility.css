@@ -1,0 +1,25 @@
+/* || UTILITIES/GENERAL 
+*/
+html, body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+    margin: 0 auto;
+    a {
+        text-decoration: none;
+    };
+}
+
+section {
+    margin: .5em;
+}
+section > iframe :hover{
+    border: 10px;
+    border-color: blue;
+}
+
+.vids_container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
